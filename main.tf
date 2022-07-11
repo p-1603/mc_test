@@ -17,7 +17,7 @@ variable "organization" {
 }
 variable "hostname" {
   type        = string
-  default     = "pringle"
+  default     = "mc_test"
   description = "Hostname of the Magic Castle cluster to build"
 }
 variable "sshkey" {
