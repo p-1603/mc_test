@@ -28,7 +28,7 @@ module "ovh" {
       scratch  = { size = 50 }
     }
   }
-  public_keys = [file("~/.ssh/id_ed25519_23022022.pub")]
+  public_keys = [file("")]
 
   nb_users     = 10
   # Shared password, randomly chosen if blank
