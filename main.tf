@@ -49,6 +49,7 @@ variable "dns" {
 variable "github_token" {
   type        = string
   description = "GitHub token to use"
+  default     = ""
 }
 variable "tfe_token" {
   type        = string
