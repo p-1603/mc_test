@@ -28,6 +28,7 @@ module "ovh" {
       scratch  = { size = 50 }
     }
   }
+  public_keys = ""
 
   nb_users     = 10
   # Shared password, randomly chosen if blank
