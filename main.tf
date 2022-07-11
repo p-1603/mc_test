@@ -10,6 +10,9 @@ terraform {
 provider "github" {}
 provider "tfe" {}
 
+variable "nb_nodes" {}
+variable "password" {}
+
 variable "organization" {
   type        = string
   default     = "kuano"
@@ -45,7 +48,6 @@ variable "dns" {
 }
 variable "github_token" {
   type        = string
-  default     = "~/.ssh/gitkey2"
   description = "GitHub token to use"
 }
 variable "tfe_token" {
